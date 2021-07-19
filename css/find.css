@@ -1,0 +1,84 @@
+.find-select {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 0px 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.find-select-icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.find-select-icons i {
+  display: flex;
+}
+
+.find-select-icons span {
+  font-size: 10px;
+}
+.find-text {
+  font-size: 10px;
+  margin: 10px;
+  opacity: 0.5;
+}
+.find-big-text {
+  opacity: 0.5;
+  font-size: 8px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.find-openchat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  opacity: 0.5;
+  margin: 10px;
+}
+.find-news-friends h4 {
+  font-size: 8px;
+  font-weight: 700;
+  margin: 10px;
+  margin-top: 25px;
+}
+.find-news-friends h6 {
+  font-size: 7px;
+
+  margin: 10px;
+  opacity: 0.5;
+}
+.find-news-number img {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.find-news-number {
+  font-size: 10px;
+  margin: 5px;
+  margin-left: 10px;
+}
+.find-news-active {
+  color: rgb(72, 182, 182);
+}
+.find-news-number :nth-child(2) {
+  opacity: 0.5;
+}
+.find-news-heart img {
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  margin-left: 35px;
+  margin-top: 5px;
+}
+.find-news-heart {
+}
+
+.main-news {
+  display: flex;
+  justify-content: space-between;
+}

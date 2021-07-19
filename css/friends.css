@@ -1,0 +1,52 @@
+.friends-title-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: 700;
+}
+.friends-icons i {
+  font-size: 15px;
+  margin: 0px 3px;
+}
+.friends-display {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  background-color: rgb(180, 241, 241);
+  padding: 10px;
+}
+.friends-display span {
+  margin: 0px 5px;
+}
+.friends-myinformation {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.friends-myinformation img {
+  height: 35px;
+  width: 35px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.friends-botton {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  opacity: 0.5;
+  font-size: 10px;
+}
+.menu-select {
+  display: flex;
+  background-color: rgb(180, 241, 241);
+  justify-content: space-around;
+  align-items: center;
+  padding: 13px;
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box;
+  width: 100%;
+}

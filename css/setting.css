@@ -1,0 +1,28 @@
+.setting-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.setting-title span {
+  font-weight: 700;
+}
+.setting-icons-column {
+  display: flex;
+  margin: 15px 20px;
+  padding-bottom: 10px;
+  width: 90%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.setting-icons-column span {
+  font-size: 12px;
+}
+.setting-icons-column i {
+  margin-right: 10px;
+}
+.setting-icons-column .only span {
+  opacity: 0.5;
+  position: relative;
+  left: 90px;
+  bottom: 10px;
+  font-size: 11px;
+}

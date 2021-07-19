@@ -1,0 +1,54 @@
+.main-img {
+  position: absolute;
+  opacity: 0.2;
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+.main-screen h1 {
+  margin-top: 45px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.main-screen p {
+  font-size: 10px;
+  text-align: center;
+  padding: 0px 47px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+main input {
+  width: 90%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 1s ease-in-out;
+}
+input::placeholder {
+  color: black;
+}
+input[type="submit"] {
+  display: flex;
+  width: 90%;
+  background-color: yellow;
+  opacity: 0.8;
+  cursor: pointer;
+  padding: 10px 0;
+  margin: 10px 10px;
+  font-size: 10px;
+}
+main span {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
